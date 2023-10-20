@@ -1,4 +1,4 @@
-package one.digitialinnovation.gof;
+package one.digitialinnovation.gof.singleton;
 
 /**
  * Singleton purpose: controls itself instance

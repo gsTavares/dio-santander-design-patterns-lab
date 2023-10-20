@@ -1,4 +1,4 @@
-package one.digitialinnovation.gof;
+package one.digitialinnovation.gof.singleton;
 
 /**
  * "Eager" singleton
