@@ -1,5 +1,6 @@
 package one.digitialinnovation.gof;
 
+import one.digitialinnovation.gof.facade.Facade;
 import one.digitialinnovation.gof.singleton.SingletonEager;
 import one.digitialinnovation.gof.singleton.SingletonLazy;
 import one.digitialinnovation.gof.singleton.SingletonLazyHolder;
@@ -43,5 +44,9 @@ public class Test {
         bot.move();
         bot.setBehavior(agressive);
         bot.move();
+
+        // Facade
+        Facade facade = new Facade();
+        facade.migrateCustomer("Gustavo", "14710888");
     }
 }

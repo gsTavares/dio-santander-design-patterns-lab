@@ -1,1 +1,1 @@
-# Singleton design pattern using pure Java
+# Singleton, strategy and facade design patterns using pure Java
